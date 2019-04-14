@@ -10,7 +10,7 @@ export default function getChartsLoader () {
     chartsLoaderPromise = new Promise(resolve => {
       const script = document.createElement('script')
       script.type = 'text/javascript'
-      script.onload = () => resolve(window.google.charts)
+      script.onload = () => resolve(window.google)
       script.src = chartsScriptUrl
       document.body.appendChild(script)
     })
