@@ -14,6 +14,8 @@ install:
 before_script:
 
 script:
-  - yarn
-  - yarn test
   - yarn build
+  - yarn semantic-release
+  # - yarn test
+  # - yarn build && git add . && git commit -m 'build' &&  git push origin feature/travis.build
+  # - rm a.txt && touch a.txt && git add . && git commit -m 'test' &&  git push origin feature/travis.build
