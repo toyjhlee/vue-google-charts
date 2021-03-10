@@ -48,7 +48,7 @@
     "vue-template-compiler": "^2.4.4",
     "semantic-release": "^17.2.3",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^3.1.11"
   },
   "jest": {
     "collectCoverage": true,
